@@ -49,5 +49,5 @@ app.listen(PORT, ()=>{
     console.log(`Server running at ${PORT}`)
 })
 
-app.use('/', usersRoute)
+app.use('/user', usersRoute)
 app.use('/menu', menuRoute)
