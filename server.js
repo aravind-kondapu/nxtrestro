@@ -5,7 +5,7 @@ const morgan = require('morgan') // login console
 const bodyParse = require('body-parser') // parse the request incoming bodies
 
 // mongoose.connect('mongodb://localhost:27017/nxtrestro', {useNewUrlParser: true, useUnifiedTopology: true})
-mongoose.connect('mongodb+srv://surendrareddyk257:aravindsr257@cluster0.7rcugnx.mongodb.net', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://surendrareddyk257:password6969@cluster0.7rcugnx.mongodb.net', {useNewUrlParser: true, useUnifiedTopology: true})
 
 const db = mongoose.connection
 
