@@ -44,10 +44,10 @@ app.use(function(req, res, next) {
 // })
 
 // run with port
-// const PORT = process.env.PORT || 9000
-// app.listen(PORT, ()=>{
-    // console.log(`Server running at ${PORT}`)
-// })
+const PORT = process.env.PORT || 9000
+app.listen(PORT, ()=>{
+    console.log(`Server running at ${PORT}`)
+})
 
 app.use('/', usersRoute)
 app.use('/menu', menuRoute)
